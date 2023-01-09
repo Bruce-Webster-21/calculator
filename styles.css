@@ -1,0 +1,70 @@
+body {
+  background-color: lightblue;
+}
+
+.container {
+  max-width: 450px;
+  margin: 10vh auto 0 auto;
+}
+
+#display {
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lightblue;
+  background-color: rgb(76, 99, 107);
+  border-radius: 7px;
+  transition: 0.6s ease;
+}
+
+#display:hover {
+  opacity: 0.7;
+  color: rgb(0, 0, 0);
+}
+
+.buttons {
+  color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+
+.buttons > div {
+  border-top: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  border-radius: 10px;
+}
+
+.button {
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: rgb(76, 99, 107);
+  transition: 0.6s ease;
+}
+
+.button:hover {
+  opacity: 0.7;
+  color: rgb(0, 0, 0);
+}
+
+#equal {
+  background-color:  rgb(218, 79, 79);
+  color: lightblue;
+}
+
+#equal:hover {
+  color: black;
+}
+
+.red {
+  background-color:  rgb(218, 79, 79);
+  color: lightblue;
+}
+
+
+
